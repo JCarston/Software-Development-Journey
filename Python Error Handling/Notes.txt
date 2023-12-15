@@ -1,0 +1,5 @@
+Request Exceptions:
+https://requests.readthedocs.io/en/latest/_modules/requests/exceptions/
+
+Built-in Exceptions:
+https://www.w3schools.com/python/python_ref_exceptions.asp
