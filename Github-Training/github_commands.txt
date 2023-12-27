@@ -59,12 +59,18 @@ git status
     - Shows current status of the repo and where you are at.
 
 General Command walkthrough:
-    - Make file changes > 
-    - git add [filename or .] > 
-    - git commit -m "[descriptive message]" > 
-    - git push origin [branch] > 
-    - git switch [branch_name] > 
-    - git pull origin [branch_name_]
+    - Make file changes
+    - git add [filename or .]
+        - (Period selects all files)
+    - git commit -m "[descriptive message]" 
+        - (Local to remote branch)
+    - git push origin [branch]
+        - (Local to remote branch)
+    - git switch [branch_name]
+    - git pull origin [branch_name]
+        - (Remote to Local)
+    - git push origin [branch_name]
+        - (Remote to Remote)
 
 The .gitignore file
     - Exclude files from being tracked with Git
