@@ -18,7 +18,7 @@ git branch [branch-name]
     - Creates a new branch. 
     - Can clone from existing branch.
 git checkout [branch-name]
-    - switches to the specified branch and updates working directory
+    - Switches to the specified branch and updates working directory
 git merge
     - Combines the specific branche's history into the current branch
     - This is usally done in pull request
@@ -27,6 +27,7 @@ git branch -d [branch-name]
 git branch --list
     - Show list of all branches in repo
 git switch [branch-name]
+    - Changes to the branch specified.
 
 Synchronize Changes:
 git fetch (Everything gets pulled down remote/Github to local)
@@ -39,10 +40,6 @@ git push (local to remote/Github)
 git pull (remote/Github to local)
     - Updates your current local working branch with all new commits from the remote branch
     - Combination of git fetch and git merge
-
-
-The .gitignore file
-    - Exclude files from being tracked with Git
 
 
 Browse and inspect repo over time:
@@ -62,8 +59,15 @@ git status
     - Shows current status of the repo and where you are at.
 
 General Command walkthrough:
-Make file changes > git add [filename or .] > git commit -m "[descriptive message]" > git push origin [branch] > git switch [branch_name] > git pull origin [branch_name_]
+    - Make file changes > 
+    - git add [filename or .] > 
+    - git commit -m "[descriptive message]" > 
+    - git push origin [branch] > 
+    - git switch [branch_name] > 
+    - git pull origin [branch_name_]
 
+The .gitignore file
+    - Exclude files from being tracked with Git
 
 Erase mistakes and craft replacement history:
 git reset [commit]
