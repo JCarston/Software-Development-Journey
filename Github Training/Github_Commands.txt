@@ -25,7 +25,8 @@ git merge
 git branch -d [branch-name]
     - Deletes the specified branch
 git branch --list
-
+    - Show list of all branches in repo
+git switch [branch-name]
 
 Synchronize Changes:
 git fetch
@@ -54,7 +55,7 @@ git diff [first-branch] [second-branch]
 git show [commit]
     - Output metadata and content change of the specified commit
 git add [filename]
-    - Snapshots the firle in preparation for versioning
+    - Snapshots the file in preparation for versioning
 git commit -m "[descriptive message]"
     - Records file snapshots permantely in version history
 
