@@ -62,7 +62,7 @@ git status
     - Shows current status of the repo and where you are at.
 
 General Command walkthrough:
-Make file changes > git add [filename or .] > git commit -m "[descriptive message]" > git push > git switch [branch_name] > git pull [branch_name_]
+Make file changes > git add [filename or .] > git commit -m "[descriptive message]" > git push origin [branch] > git switch [branch_name] > git pull origin [branch_name_]
 
 
 Erase mistakes and craft replacement history:
