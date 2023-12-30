@@ -543,10 +543,10 @@ alertcycle(alertidlist)
 validbody = json.dumps(nrjsondata, indent=4)
 print(validbody)
 # ServiceNow API call and passing New Relic JSON data
-url = 'https://wgu.service-now.com/api/wegu/noc_morning_health_check/createAlerts/NOCE0002044'
+url = 'https://wgu.service-now.com/api/wegu/noc_morning_health_check/createAlerts/SOMETHINGWASHERE'
 headers = {
 'Content-Type': "application/json",
 'cache-control': "no-cache"
 }
-response = requests.post(url, auth=("noc.alerts", "SOMETHINGWASHERE"), headers=headers, data=validbody )
+response = requests.post(url, auth=("SOMETHINGWASHERE", "SOMETHINGWASHERE"), headers=headers, data=validbody )
 print(response.json())
