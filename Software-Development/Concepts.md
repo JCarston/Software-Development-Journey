@@ -20,7 +20,7 @@ Structured process that is used to design, develop, and test good-quality softwa
 
 
 # **Software Development Lifecycle Models**
-    - There are a total of six development lifecycle models. They are like the spell checkers of software development.
+There are a total of six development lifecycle models. They are like the spell checkers of software development.
 ## Waterfall Development:
     - In the waterfall model, once a phase seems to be completed, it cannot be changed.
     - Due to this less flexible nature, the waterfall model is not in practice anymore.
