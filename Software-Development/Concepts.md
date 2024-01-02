@@ -1,5 +1,5 @@
 # **Software Development Lifecycle (SDLC)**
-    Structured process that is used to design, develop, and test good-quality software
+Structured process that is used to design, develop, and test good-quality software
 ## Stage-1: Planning and Requirement Analysis
     - The information from the analysis forms the building blocks of a basic project. 
     - requirement analysis is also performed by the developers of the organization. This is attained from customer inputs, and sales department/market surveys. 
