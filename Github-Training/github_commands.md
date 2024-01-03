@@ -1,64 +1,64 @@
-Configuration Commands:
-git config --global user.name "[name]" 
+## <u>**Configuration Commands:**</u>
+### git config --global user.name "[name]" 
     - Sets the name you want on your commits
-git config --global user.email "[email]"
+### git config --global user.email "[email]"
     - Sets the email you want on your commits
-git config --global color.ui auto
+### git config --global color.ui auto
     - Enables helpful colors for the CLI output
 
-Creating Repositories:
-git init
+## <u>**Creating Repositories:**</u>
+### git init
     - Turn an existing directory into a git repository
-git clone [url]
+### git clone [url]
     - Downloads a repository that already exists within GitHub
 
 
-Branches:
-git branch [branch-name]
+## <u>**Branches:**</u>
+### git branch [branch-name]
     - Creates a new branch. 
     - Can clone from existing branch.
-git checkout [branch-name]
+### git checkout [branch-name]
     - Switches to the specified branch and updates working directory
-git merge
+### git merge
     - Combines the specific branche's history into the current branch
     - This is usally done in pull request
-git branch -d [branch-name]
+### git branch -d [branch-name]
     - Deletes the specified branch
-git branch --list
+### git branch --list
     - Show list of all branches in repo
-git switch [branch-name]
+### git switch [branch-name]
     - Changes to the branch specified.
 
-Synchronize Changes:
-git fetch (Everything gets pulled down remote/Github to local)
+## <u>**Synchronize Changes:**</u>
+### git fetch (Everything gets pulled down remote/Github to local)
     - Downloads all history from the remote branches
-git merge
+### git merge
     - Combines the specific branche's history into the current branch
     - This is usally done in pull request
-git push (local to remote/Github)
+### git push (local to remote/Github)
     - Uploads all local branch commits to GitHub
-git pull (remote/Github to local)
+### git pull (remote/Github to local)
     - Updates your current local working branch with all new commits from the remote branch
     - Combination of git fetch and git merge
 
 
-Browse and inspect repo over time:
-git log
+## <u>**Browse and inspect repo over time:**</u>
+### git log
     - Lists version history for the current branch
-git log --follow [file]
+### git log --follow [file]
     - Lists version history for a file (including renames).
-git diff [first-branch] [second-branch]
+### git diff [first-branch] [second-branch]
     - Shows context difference between two branches
-git show [commit]
+### git show [commit]
     - Output metadata and content change of the specified commit
-git add [filename]
+### git add [filename]
     - Snapshots the file in preparation for versioning
-git commit -m "[descriptive message]"
+### git commit -m "[descriptive message]"
     - Records file snapshots permantely in version history
-git status
+### git status
     - Shows current status of the repo and where you are at.
 
-General Command walkthrough:
+## <u>**General Command walkthrough:**</u>
     - Make file changes
     - git add [filename or .]
         - (Period selects all files)
@@ -72,17 +72,17 @@ General Command walkthrough:
     - git push origin [branch_name]
         - (Remote to Remote)
 
-The .gitignore file
+## <u>**The .gitignore file**</u>
     - Exclude files from being tracked with Git
 
-Erase mistakes and craft replacement history:
-git reset [commit]
+## <u>**Erase mistakes and craft replacement history:**</u>
+### git reset [commit]
     - undoes all commits after [commit], preserving changes
-git reset --hard [commit]
+### git reset --hard [commit]
     - Discards all history and changes back to the specified commit
 
 
 
-Resources used:
-https://training.github.com/downloads/github-git-cheat-sheet.pdf
-https://deepnotes.app/pages/nRea-8JgIXvbIyEi0ONCN
+## <u>**Resources used:**</u>
+    -https://training.github.com/downloads/github-git-cheat-sheet.pdf
+    - https://deepnotes.app/pages/nRea-8JgIXvbIyEi0ONCN
