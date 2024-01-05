@@ -1,0 +1,22 @@
+from datetime import datetime # $ pip install DateTime
+import datetime
+
+
+testing ='2022-03-01T07:14:28.355Z'
+utc_time = datetime.datetime.strptime(testing,'%Y-%m-%dT%H:%M:%S.%fZ')
+# newtesting = datetime.datetime(utc_time)
+
+
+date_and_time = datetime.datetime(2020, 2, 19, 12, 0, 0)
+# print(date_and_time)
+
+time_change = datetime.timedelta(minutes=-10)
+time_change2 = datetime.timedelta(minutes=10)
+new_time = date_and_time - time_change
+
+
+final = utc_time + time_change
+final2 = utc_time + time_change2
+print(utc_time)
+print(final)
+print(final2)
