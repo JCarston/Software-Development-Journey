@@ -13,9 +13,7 @@
 - Extend = Add to the end of a list all values passed to extend
 ### Tuple
 - Same concept as a list, but the data cannot be changed. (They are faster than lists)
- 
-<br></br>
-# <u>Error Types</u> 
+# <br></br> <u>Error Types</u> 
 ### SyntaxError
 - Occurs when Python encounters an incorrect syntax
 ### NameError
@@ -32,9 +30,7 @@
 - Dictionary does not have a specific key
 ### AttributeError
 - Variable does not have an attribute
-
-<br></br>
-# <u>API Concepts</u>
+# <br></br><u>API Concepts</u>
 GET:
 - Retrieve data
 
