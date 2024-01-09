@@ -31,20 +31,20 @@
 ### AttributeError
 - Variable does not have an attribute
 # <br></br><u>API Concepts</u>
-GET:
+### GET:
 - Retrieve data
 
-PUT: 
+### PUT: 
 - Replace data
 
-POST 
+### POST 
 - Create data
 
-DELETE
+### DELETE
 - Delete data
 
-SOAP APIs 
+### SOAP APIs 
 - Rigid and only allow XML messaging between applications. The application server also has to maintain the state of each client. This means it has to remember all previous requests when processing a new request.
 
-REST
+### REST
 -  Flexible and allows applications to transfer data as plain text, HTML, XML, and JSON. REST is also stateless, so the REST API treats every new request independently of previous requests.
