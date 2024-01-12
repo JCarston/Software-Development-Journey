@@ -24,6 +24,8 @@
     - This is usally done in pull request
 ### git branch -d [branch-name]
     - Deletes the specified branch
+## git branch-m [branchname]
+    - Rename branch. You much be inside the branch you want to rename.
 ### git branch --list
     - Show list of all branches in repo
 ### git switch [branch-name]

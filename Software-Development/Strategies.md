@@ -25,7 +25,7 @@
 
 
 
-# <u>**Software Development Lifecycle Models**</u>
+# <br><u>**Software Development Lifecycle Models**</u></br>
 There are a total of <b>six development lifecycle models</b>. They are like the spell checkers of software development.
 
 ### <u>Waterfall Development:</u>
@@ -50,41 +50,71 @@ There are a total of <b>six development lifecycle models</b>. They are like the 
 - Where developers and Operational teams work together to accelerate innovation and deployment quality.
 
 
-# <u>Test Driven Development (TDD)</u>
+# <br><u>Test Driven Development (TDD)</u></br>
 Software Development practice that focuses on creating unit test acases before developing the actual code.
 
-Code Coverage:
+### <u>Code Coverage:</u>
  - Metric to show how much of your source code is tested.
     
-Function coverage:
+### <u>Function coverage:</u>
 - How many of the functions defined have been called.
 
-Statement coverage:
+### <u>Statement coverage:</u>
 - How many of the statements in the program have been executed.
 
-Branches coverage:
+### <u>Branches coverage:</u>
 - How many of the branches of the control structures (if statements, for instance) have been executed.
 
-Condition coverage:
+### <u>Condition coverage:</u>
 - How many of the boolean sub-expressions have been tested for a true and a false value.
 
-Line coverage:
+### <u>Line coverage:</u>
 - How many lines of source code have been tested.
  
-Unit Test: 
+### <u>Unit Test: </u>
 - The smallest piece of code that can be logically isolated in a system
 - In most languages, that is the "function," "subroutine," "method," or "property."
 
-TTD (Test Driven Development):
+### <u>TTD (Test Driven Development):</u>
 - Writes your test before writing production code.
  
-Integration Testing:
+### <u>Integration Testing:</u>
 - This type of software testing is where components are gradually integrated and then tested as a group.
 - Modules may work individually, but when they are brought together, they can fail.
  
-Test Management:
+### <u>Test Management:</u>
 - Process where testing activities are managed.
 - Modules may work individually, but when they are brought together, they can fail.
+
+# <br><u>Testing Types</u></br>
+### <u>Functional testing</u>
+- Testing functionalities for proper behavior
+### <u>Usability testing</u>
+- Evaluating product’s ease of use and intuitiveness
+### <u>Security testing</u>
+- Checking the security of the application through the network, data, APIs and other components
+Includes testing for issues like unauthorized access, data breaches, and injection attacks
+### <u>Exploratory testing</u>	
+- This form of testing is unscripted and focuses on finding issues in the system
+Relies heavily of the tester’s understanding of the product
+### <u>Smoke testing</u>
+- A preliminary round of testing to quickly assess if the software is stable enough for further testing
+### <u>Regression testing</u>
+- Form of testing done to ensure that existing functionalities do not get impacted after introduction of new features or fixes
+### <u>Alpha testing</u>
+- This kind of acceptance testing is conducted by the internal QA team to identify defects before release
+### <u>Beta testing</u>
+- Beta testing involves real users testing the software in a controlled environment before it’s widely released
+### <u>Sanity testing</u>
+- Validates at a high level if the functionalities are working as expected
+Further testing is done based on these results
+### <u>Performance testing</u>	
+- Checks the performance of the application under different conditions like the product’s responsiveness, scalability, and stability under varying load conditions
+Includes targeted testing types like load testing and stress testing
+### <u>Load testing</u>
+- Evaluates the product under peak load to identify bottlenecks and scalability issues
+### <u>Stress testing</u>
+- Tests the product’s stability and performance under extreme conditions
 
 
 
@@ -92,3 +122,4 @@ Test Management:
     - https://www.geeksforgeeks.org/software-development-life-cycle-sdlc/
     - https://www.roberthalf.com/us/en/insights/career-development/6-basic-sdlc-methodologies-which-one-is-best
     - https://www.browserstack.com/guide/what-is-test-driven-development
+    - https://testrigor.com/blog/manual-testing-cheat-sheet/
