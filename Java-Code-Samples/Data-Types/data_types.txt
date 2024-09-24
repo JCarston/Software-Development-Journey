@@ -1,0 +1,12 @@
+Data Types:
+
+Primitive:
+- Integer --> byte (1 byte), short (2 bytes), int (4bytes), long (8bytes)
+- Float --> double, float
+- Character -->  2 bytes / single quotes
+- Booleen --> True or False
+
+
+Literals:
+int --> variable_name --> Value
+^^Data  ^^Variable        ^^Literal
